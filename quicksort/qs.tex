@@ -1,0 +1,16 @@
+\documentclass[10pt, letterpaper,UTF8]{article}
+\usepackage{inputenc}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{graphicx}
+\author{Jovi Wong}
+\title{Time Complexity of Random Quick Sort}
+\begin{document}
+\maketitle
+\section{PROCESS}
+This time I don't take steps as the substition of time comsuming on calculating. The time is physical time computer spend on quick sort. When the length of recursion target is less than three, I utilize insertion sort as requirements, so the time of quick sort is not precise.
+\section{RESULT}
+\includegraphics[scale=0.7]{qstime.png}
+
+The horizontal ordinate is the length of the inputting vectors, and longitudinal ordinates is the time spent on calculation whose unit is millisecond. We can clearly spot the huge differences between two function. Becuase of the stretch of the two ordinates, the function containing logarithm looks like a line whick pass through original point.  
+\end{document}
